@@ -5,8 +5,7 @@
      
        stage("Build") {
             steps {
-                sh "mvn -version"
-                sh "mvn clean install" 
+                sh "date"
             }
         }
         stage("Ok") {
